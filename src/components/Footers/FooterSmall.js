@@ -17,10 +17,10 @@ export default function FooterSmall(props) {
               <div className="text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=nr-footer-small"
+                  href="https://github.com/GromRibeiro"
                   className="text-white hover:text-blueGray-300 text-sm font-semibold py-1"
                 >
-                  Creative Tim
+                  Gabriel Ribeiro
                 </a>
               </div>
             </div>
