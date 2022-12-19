@@ -223,32 +223,6 @@ export default function Index() {
             ></polygon>
           </svg>
         </div>
-
-        <div className="container mx-auto">
-          <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
-            <div className="w-full text-center lg:w-8/12">
-              <h3 className="font-semibold text-3xl">
-                Me da uma estrelinha?
-              </h3>
-              <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Caso você queira me deixar feliz clique no botão
-                abaixo e deixe uma estrelinha em meu repositório
-                no GitHub!
-              </p>
-              <div className="sm:block flex flex-col mt-10">
-                <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
-                  target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                >
-                  <i className="fab fa-github text-lg mr-1"></i>
-                  <span>Star</span>
-                </a>
-              </div>
-              <div className="text-center mt-16"></div>
-            </div>
-          </div>
-        </div>
       </section>
       <Footer />
     </>
