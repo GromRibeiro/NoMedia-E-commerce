@@ -27,7 +27,7 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                  href="https://github.com/GromRibeiro/NoMedia-E-commerce"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
@@ -87,7 +87,7 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Projeto SemMedia um E-commerce igual qualquer outro
+                    Projeto NoMedia um E-commerce igual qualquer outro
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
                     Simplesmente um E-commerce igual a Amazon , Mercado livre , Americanas
@@ -119,11 +119,11 @@ export default function Index() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                        Componentes JavaScript
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular
+                       Componentes JavaScript usando o React torna essa aplicação
+                        muito mais versatil e de fácil entendimento de Código.
                       </p>
                     </div>
                   </div>
@@ -147,11 +147,12 @@ export default function Index() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Documentation
+                        Node.js
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus React.
+                        Com todo o backend feito em node.js
+                        esse projeto se torna um projeto composto com somente
+                        javascript.
                       </p>
                     </div>
                   </div>
@@ -188,7 +189,7 @@ export default function Index() {
                 Obtenha-o gratuitamente no Github e me ajude com uma estrela!
               </p>
               <a
-                href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                href="https://github.com/GromRibeiro/NoMedia-E-commerce"
                 target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
               >
