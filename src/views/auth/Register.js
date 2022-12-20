@@ -1,6 +1,17 @@
 import React from "react";
+import {Formik, Form, Field, ErrorMessage} from "formik";
+import * as yup from "yup";
 
 export default function Register() {
+  const handleRegister = (values) => console.log(values)
+
+  const validationRegister = yup.object().shape({
+    name: yup.string().required("Este campo é obrigatório"),
+    email: yup.string().email("Deve se um Email").required("Este campo é obrigatório"),
+    password: yup.string().min(8, "A senha deve conter no minimo 8 caracteres").required("Este campo é obrigatório"),
+    confirmpassword: yup.string().min(8, "A senha deve conter no minimo 8 caracteres").required("Este campo é obrigatório"),
+  })
+
   return (
     <>
       <div className="container mx-auto px-4 h-full">
@@ -43,7 +54,8 @@ export default function Register() {
                 <div className="text-blueGray-400 text-center mb-3 font-bold">
                   <small>Or sign up with credentials</small>
                 </div>
-                <form>
+              <Formik initialValues={{}} onSubmit={handleRegister} validationSchema={validationRegister}>
+                <Form>
                   <div className="relative w-full mb-3">
                     <label
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -51,10 +63,16 @@ export default function Register() {
                     >
                       Name
                     </label>
-                    <input
+                    <Field
+                      name="name"
                       type="email"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Name"
+                    />
+                    <ErrorMessage
+                        component="span"
+                        name="name"
+                        className="form-error"
                     />
                   </div>
 
@@ -65,10 +83,16 @@ export default function Register() {
                     >
                       Email
                     </label>
-                    <input
+                    <Field
+                      name="email"
                       type="email"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Email"
+                    />
+                    <ErrorMessage
+                        component="span"
+                        name="email"
+                        className="form-error"
                     />
                   </div>
 
@@ -79,16 +103,43 @@ export default function Register() {
                     >
                       Password
                     </label>
-                    <input
+                    <Field
+                      name="password"
                       type="password"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Password"
+                    />
+                    <ErrorMessage
+                        component="span"
+                        name="password"
+                        className="form-error"
+                    />
+                  </div>
+
+                  <div className="relative w-full mb-3">
+                    <label
+                        className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlFor="grid-password"
+                    >
+                      Confirm Password
+                    </label>
+                    <Field
+                        name="confirmpassword"
+                        type="password"
+                        className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                        placeholder="Password"
+                    />
+                    <ErrorMessage
+                        component="span"
+                        name="password"
+                        className="form-error"
                     />
                   </div>
 
                   <div>
                     <label className="inline-flex items-center cursor-pointer">
-                      <input
+                      <Field
+                        name="check"
                         id="customCheckLogin"
                         type="checkbox"
                         className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
@@ -109,12 +160,13 @@ export default function Register() {
                   <div className="text-center mt-6">
                     <button
                       className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                      type="button"
+                      type="submit"
                     >
                       Create Account
                     </button>
                   </div>
-                </form>
+                  </Form>
+                </Formik>
               </div>
             </div>
           </div>
