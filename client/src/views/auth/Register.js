@@ -9,7 +9,7 @@ export default function Register() {
     name: yup.string().required("Este campo é obrigatório"),
     email: yup.string().email("Deve se um Email").required("Este campo é obrigatório"),
     password: yup.string().min(8, "A senha deve conter no minimo 8 caracteres").required("Este campo é obrigatório"),
-    confirmpassword: yup.string().min(8, "A senha deve conter no minimo 8 caracteres").required("Este campo é obrigatório"),
+    confirmPassword: yup.string().oneOf([yup.ref("password"), null], "As senhas não são iguais")
   })
 
   return (
@@ -124,14 +124,14 @@ export default function Register() {
                       Confirm Password
                     </label>
                     <Field
-                        name="confirmpassword"
+                        name="confirmPassword"
                         type="password"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="Password"
                     />
                     <ErrorMessage
                         component="span"
-                        name="password"
+                        name="confirmPassword"
                         className="form-error"
                     />
                   </div>

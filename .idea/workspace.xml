@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4349c2d4-5a3d-4e8b-94a2-95d87ccd100d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/notus-react-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/angular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bootstrap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/component-btn-pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/component-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/component-info-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/component-info-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/component-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/component-profile-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/documentation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/ill_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/landing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/pattern_react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/react.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/register_bg_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/sketch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team-1-800x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team-2-800x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team-3-800x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team-4-470x470.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/vue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardBarChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardLineChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardPageVisits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardSettings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardSocialTraffic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardStats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dropdowns/IndexDropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dropdowns/NotificationDropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dropdowns/PagesDropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dropdowns/TableDropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dropdowns/UserDropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footers/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footers/FooterAdmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footers/FooterSmall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Headers/HeaderStats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Maps/MapExample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/AdminNavbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/AuthNavbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/IndexNavbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Landing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/Maps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/Settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/Tables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/auth/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/auth/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IghLfOPgwnL4PAHGNmhNsbcQAy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bielzada/Documentos/GitHub/NoMedia-E-commerce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4349c2d4-5a3d-4e8b-94a2-95d87ccd100d" name="Changes" comment="" />
+      <created>1670609078481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670609078481</updated>
+      <workItem from="1670609079772" duration="3925000" />
+      <workItem from="1670841630695" duration="3677000" />
+      <workItem from="1670928863011" duration="4788000" />
+      <workItem from="1671016639662" duration="3205000" />
+      <workItem from="1671047051707" duration="1210000" />
+      <workItem from="1671186964954" duration="586000" />
+      <workItem from="1671187580861" duration="81000" />
+      <workItem from="1671187697159" duration="1056000" />
+      <workItem from="1671191403763" duration="32000" />
+      <workItem from="1671191475470" duration="9561000" />
+      <workItem from="1671213218288" duration="337000" />
+      <workItem from="1671214037810" duration="633000" />
+      <workItem from="1671447949133" duration="1164000" />
+      <workItem from="1671449701037" duration="7652000" />
+      <workItem from="1671535458508" duration="715000" />
+      <workItem from="1671541696691" duration="9400000" />
+      <workItem from="1671630254279" duration="3029000" />
+      <workItem from="1671707649978" duration="68000" />
+      <workItem from="1671707758563" duration="2556000" />
+      <workItem from="1671729911303" duration="906000" />
+      <workItem from="1671794216215" duration="1616000" />
+      <workItem from="1671797388370" duration="298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="7730ee89-6804-4457-adb7-531a19f6a71e">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="7730ee89-6804-4457-adb7-531a19f6a71e" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+</project>
