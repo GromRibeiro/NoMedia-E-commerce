@@ -1,9 +1,18 @@
 import React from "react";
-import {Formik, Form, Field, ErrorMessage} from "formik";
+import {Formik,Form, Field, ErrorMessage} from "formik";
 import * as yup from "yup";
-
+import Axios from "axios";
 export default function Register() {
-  const handleRegister = (values) => console.log(values)
+  const handleRegister = (values) => {
+    Axios.post("http://localhost:3001/auth/register",{
+      name: values.name,
+      email: values.email,
+      password: values.password,
+    }).then((res) => {
+          alert(res.data.msg)
+        }
+    )
+  }
 
   const validationRegister = yup.object().shape({
     name: yup.string().required("Este campo é obrigatório"),
@@ -55,7 +64,7 @@ export default function Register() {
                   <small>Or sign up with credentials</small>
                 </div>
               <Formik initialValues={{}} onSubmit={handleRegister} validationSchema={validationRegister}>
-                <Form>
+                  <Form>
                   <div className="relative w-full mb-3">
                     <label
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -65,7 +74,7 @@ export default function Register() {
                     </label>
                     <Field
                       name="name"
-                      type="email"
+                      type="text"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Name"
                     />

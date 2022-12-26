@@ -1,7 +1,7 @@
 {
-  "name": "notus-react",
+  "name": "nomedia",
   "version": "1.1.0",
-  "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
+  "description": "NoMedia e-commerce",
   "repository": "https://github.com/creativetimofficial/notus-react",
   "license": "MIT",
   "dependencies": {
@@ -9,6 +9,7 @@
     "@popperjs/core": "2.9.1",
     "@tailwindcss/forms": "0.2.1",
     "autoprefixer": "10.2.5",
+    "axios": "^1.2.1",
     "chart.js": "2.9.4",
     "formik": "^2.2.9",
     "gulp": "^3.9.1",
